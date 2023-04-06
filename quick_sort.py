@@ -73,3 +73,5 @@ if __name__ == '__main__':
     q = list(map(int, input().split()))
     double_quick_sort(q, 0, n-1)
     print(*q)
+
+# bug修改～
