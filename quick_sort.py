@@ -59,7 +59,7 @@ def double_quick_sort(q, l, r):
         while j>=l and q[j]>pivot:  # 如果j在l范围内且大于基准
             j-=1    # 指针前移
         if i<j:
-            q[i], q[j] = q[j], q[i] # 两者停止则交换
+            q[i], q[j] = q[j], q[i] # 两者停止则交换,并向前移动指针
             i+=1
             j-=1
         else:
